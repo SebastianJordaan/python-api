@@ -1,0 +1,296 @@
+{
+    "items": [
+        {
+            "response_code": "00",
+            "response_text": "Approved",
+            "amount": 1000,
+            "reference": "d9be3f03-bfa5-4f65-94d7-399a21103f2e",
+            "pos": "57290097",
+            "store": "RESTSIM00000001",
+            "tran": "PURCHASE",
+            "rrn": "000035290097",
+            "data": [
+                {
+                    "key": "preformattedreceipt.guest",
+                    "value": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Guest Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:52:03\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000035\nRRN:\t000035290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\td9be3f03-bfa5-4f65-94d7-399a21103f\n2e\nAccent:\t*****************************\nTotal:\tR10.00}"
+                },
+                {
+                    "key": "preformattedreceipt.merchant",
+                    "value": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Merchant Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:52:03\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000035\nRRN:\t000035290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\td9be3f03-bfa5-4f65-94d7-399a21103f\n2e\nAccent:\t*****************************\nTotal:\tR10.00}"
+                },
+                {
+                    "key": "UTI",
+                    "value": "d9be3f03-bfa5-4f65-94d7-399a21103f2e"
+                },
+                {
+                    "key": "SerialId",
+                    "value": "TJeXeSimPED"
+                }
+            ],
+            "card": "476173******0010",
+            "card_name": "VISA CTLS",
+            "seq": "000035",
+            "sign": false,
+            "ext_payment": "00",
+            "acc_type": "Credit",
+            "card_entry": "I",
+            "cryptogram_type": "TC",
+            "cryptogram": "4AD8878D11",
+            "tvr": "0000000000",
+            "aid": "A0000000041010",
+            "tsi": "F800",
+            "cvm_results": "440302",
+            "iad": "0810A74213023000000000000000000000FF",
+            "pin_statement": "Pin Verified",
+            "receipt": [],
+            "preformattedReceipt": {
+                "MerchantReceipt": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Merchant Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:52:03\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000035\nRRN:\t000035290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\td9be3f03-bfa5-4f65-94d7-399a21103f\n2e\nAccent:\t*****************************\nTotal:\tR10.00}",
+                "GuestReceipt": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Guest Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:52:03\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000035\nRRN:\t000035290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\td9be3f03-bfa5-4f65-94d7-399a21103f\n2e\nAccent:\t*****************************\nTotal:\tR10.00}"
+            }
+        },
+        {
+            "response_code": "00",
+            "response_text": "Approved",
+            "amount": 1100,
+            "reference": "be5e71ef-3b37-47ef-a4d9-1dee7668079d",
+            "pos": "57290097",
+            "store": "RESTSIM00000001",
+            "tran": "PURCHASE",
+            "rrn": "000037290097",
+            "data": [
+                {
+                    "key": "preformattedreceipt.guest",
+                    "value": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Guest Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:54:30\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000037\nRRN:\t000037290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\tbe5e71ef-3b37-47ef-a4d9-1dee766807\n9d\nAccent:\t*****************************\nTotal:\tR11.00}"
+                },
+                {
+                    "key": "preformattedreceipt.merchant",
+                    "value": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Merchant Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:54:30\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000037\nRRN:\t000037290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\tbe5e71ef-3b37-47ef-a4d9-1dee766807\n9d\nAccent:\t*****************************\nTotal:\tR11.00}"
+                },
+                {
+                    "key": "UTI",
+                    "value": "be5e71ef-3b37-47ef-a4d9-1dee7668079d"
+                },
+                {
+                    "key": "SerialId",
+                    "value": "TJeXeSimPED"
+                }
+            ],
+            "card": "476173******0010",
+            "card_name": "VISA CTLS",
+            "seq": "000037",
+            "sign": true,
+            "ext_payment": "00",
+            "acc_type": "Credit",
+            "card_entry": "I",
+            "cryptogram_type": "TC",
+            "cryptogram": "4AD8878D11",
+            "tvr": "0000000000",
+            "aid": "A0000000041010",
+            "tsi": "F800",
+            "cvm_results": "050302",
+            "iad": "0810A74213023000000000000000000000FF",
+            "pin_statement": "Pin Verified",
+            "receipt": [],
+            "preformattedReceipt": {
+                "MerchantReceipt": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Merchant Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:54:30\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000037\nRRN:\t000037290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\tbe5e71ef-3b37-47ef-a4d9-1dee766807\n9d\nAccent:\t*****************************\nTotal:\tR11.00}",
+                "GuestReceipt": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Guest Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:54:30\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000037\nRRN:\t000037290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\tbe5e71ef-3b37-47ef-a4d9-1dee766807\n9d\nAccent:\t*****************************\nTotal:\tR11.00}"
+            }
+        },
+        {
+            "response_code": "00",
+            "response_text": "Approved",
+            "amount": 1200,
+            "reference": "22a6f5c6-4dda-4b29-83ed-775b467ef7cb",
+            "pos": "57290097",
+            "store": "RESTSIM00000001",
+            "tran": "PURCHASE",
+            "rrn": "000038290097",
+            "data": [
+                {
+                    "key": "preformattedreceipt.guest",
+                    "value": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Guest Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:55:40\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000038\nRRN:\t000038290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\t22a6f5c6-4dda-4b29-83ed-775b467ef7\ncb\nAccent:\t*****************************\nTotal:\tR12.00}"
+                },
+                {
+                    "key": "preformattedreceipt.merchant",
+                    "value": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Merchant Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:55:40\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000038\nRRN:\t000038290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\t22a6f5c6-4dda-4b29-83ed-775b467ef7\ncb\nAccent:\t*****************************\nTotal:\tR12.00}"
+                },
+                {
+                    "key": "UTI",
+                    "value": "22a6f5c6-4dda-4b29-83ed-775b467ef7cb"
+                },
+                {
+                    "key": "SerialId",
+                    "value": "TJeXeSimPED"
+                },
+                {
+                    "key": "external_tran_rsp_text",
+                    "value": "Approved"
+                }
+            ],
+            "card": "476173******0010",
+            "card_name": "VISA CTLS",
+            "seq": "000038",
+            "sign": false,
+            "ext_payment": "00",
+            "acc_type": "Credit",
+            "card_entry": "I",
+            "cryptogram_type": "TC",
+            "cryptogram": "4AD8878D11",
+            "tvr": "0000000000",
+            "aid": "A0000000041010",
+            "tsi": "F800",
+            "cvm_results": "440302",
+            "iad": "0810A74213023000000000000000000000FF",
+            "pin_statement": "Pin Verified",
+            "receipt": [],
+            "preformattedReceipt": {
+                "MerchantReceipt": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Merchant Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:55:40\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000038\nRRN:\t000038290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\t22a6f5c6-4dda-4b29-83ed-775b467ef7\ncb\nAccent:\t*****************************\nTotal:\tR12.00}",
+                "GuestReceipt": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Guest Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:55:40\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000038\nRRN:\t000038290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\t22a6f5c6-4dda-4b29-83ed-775b467ef7\ncb\nAccent:\t*****************************\nTotal:\tR12.00}"
+            }
+        },
+        {
+            "response_code": "00",
+            "response_text": "Approved",
+            "amount": 1300,
+            "reference": "25199d8d-34df-4d68-8126-a7a854da76e7",
+            "pos": "57290097",
+            "store": "RESTSIM00000001",
+            "tran": "PURCHASE",
+            "rrn": "000039290097",
+            "data": [
+                {
+                    "key": "preformattedreceipt.guest",
+                    "value": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Guest Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:55:51\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000039\nRRN:\t000039290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\t25199d8d-34df-4d68-8126-a7a854da76\ne7\nAccent:\t*****************************\nTotal:\tR13.00}"
+                },
+                {
+                    "key": "preformattedreceipt.merchant",
+                    "value": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Merchant Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:55:51\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000039\nRRN:\t000039290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\t25199d8d-34df-4d68-8126-a7a854da76\ne7\nAccent:\t*****************************\nTotal:\tR13.00}"
+                },
+                {
+                    "key": "UTI",
+                    "value": "25199d8d-34df-4d68-8126-a7a854da76e7"
+                },
+                {
+                    "key": "SerialId",
+                    "value": "TJeXeSimPED"
+                }
+            ],
+            "card": "476173******0010",
+            "card_name": "VISA CTLS",
+            "seq": "000039",
+            "sign": false,
+            "ext_payment": "00",
+            "acc_type": "Credit",
+            "card_entry": "I",
+            "cryptogram_type": "TC",
+            "cryptogram": "4AD8878D11",
+            "tvr": "0000000000",
+            "aid": "A0000000041010",
+            "tsi": "F800",
+            "cvm_results": "010301",
+            "iad": "0810A74213023000000000000000000000FF",
+            "pin_statement": "PIN Verification failed",
+            "receipt": [],
+            "preformattedReceipt": {
+                "MerchantReceipt": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Merchant Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:55:51\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000039\nRRN:\t000039290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\t25199d8d-34df-4d68-8126-a7a854da76\ne7\nAccent:\t*****************************\nTotal:\tR13.00}",
+                "GuestReceipt": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Guest Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:55:51\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000039\nRRN:\t000039290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\t25199d8d-34df-4d68-8126-a7a854da76\ne7\nAccent:\t*****************************\nTotal:\tR13.00}"
+            }
+        },
+        {
+            "response_code": "00",
+            "response_text": "Approved",
+            "amount": 1400,
+            "reference": "7c355465-0afe-4e45-a5b2-afca95925b8a",
+            "pos": "57290097",
+            "store": "RESTSIM00000001",
+            "tran": "PURCHASE",
+            "rrn": "000040290097",
+            "data": [
+                {
+                    "key": "preformattedreceipt.guest",
+                    "value": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Guest Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:56:08\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000040\nRRN:\t000040290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\t7c355465-0afe-4e45-a5b2-afca95925b\n8a\nAccent:\t*****************************\nTotal:\tR14.00}"
+                },
+                {
+                    "key": "preformattedreceipt.merchant",
+                    "value": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Merchant Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:56:08\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000040\nRRN:\t000040290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\t7c355465-0afe-4e45-a5b2-afca95925b\n8a\nAccent:\t*****************************\nTotal:\tR14.00}"
+                },
+                {
+                    "key": "UTI",
+                    "value": "7c355465-0afe-4e45-a5b2-afca95925b8a"
+                },
+                {
+                    "key": "SerialId",
+                    "value": "TJeXeSimPED"
+                }
+            ],
+            "card": "476173******0010",
+            "card_name": "VISA CTLS",
+            "seq": "000040",
+            "sign": false,
+            "ext_payment": "00",
+            "acc_type": "Credit",
+            "card_entry": "I",
+            "cryptogram_type": "TC",
+            "cryptogram": "4AD8878D11",
+            "tvr": "0000000000",
+            "aid": "A0000000041010",
+            "tsi": "F800",
+            "cvm_results": "010000",
+            "iad": "0810A74213023000000000000000000000FF",
+            "pin_statement": "PIN used",
+            "receipt": [],
+            "preformattedReceipt": {
+                "MerchantReceipt": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Merchant Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:56:08\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000040\nRRN:\t000040290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\t7c355465-0afe-4e45-a5b2-afca95925b\n8a\nAccent:\t*****************************\nTotal:\tR14.00}",
+                "GuestReceipt": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Guest Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:56:08\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000040\nRRN:\t000040290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\t7c355465-0afe-4e45-a5b2-afca95925b\n8a\nAccent:\t*****************************\nTotal:\tR14.00}"
+            }
+        },
+        {
+            "response_code": "00",
+            "response_text": "Approved",
+            "amount": 1600,
+            "reference": "0c3ac5c2-595d-4b67-81a2-397e1f0a3c3e",
+            "pos": "57290097",
+            "store": "RESTSIM00000001",
+            "tran": "PURCHASE",
+            "rrn": "000044290097",
+            "data": [
+                {
+                    "key": "preformattedreceipt.guest",
+                    "value": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Guest Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:57:50\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000044\nRRN:\t000044290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\t0c3ac5c2-595d-4b67-81a2-397e1f0a3c\n3e\nAccent:\t*****************************\nTotal:\tR16.00}"
+                },
+                {
+                    "key": "preformattedreceipt.merchant",
+                    "value": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Merchant Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:57:50\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000044\nRRN:\t000044290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\t0c3ac5c2-595d-4b67-81a2-397e1f0a3c\n3e\nAccent:\t*****************************\nTotal:\tR16.00}"
+                },
+                {
+                    "key": "UTI",
+                    "value": "0c3ac5c2-595d-4b67-81a2-397e1f0a3c3e"
+                },
+                {
+                    "key": "SerialId",
+                    "value": "TJeXeSimPED"
+                }
+            ],
+            "card": "476173******0010",
+            "card_name": "VISA CTLS",
+            "seq": "000044",
+            "sign": false,
+            "ext_payment": "00",
+            "acc_type": "Credit",
+            "card_entry": "I",
+            "cryptogram_type": "TC",
+            "cryptogram": "4AD8878D11",
+            "tvr": "0000000000",
+            "aid": "A0000000041010",
+            "tsi": "F800",
+            "cvm_results": "1F0000",
+            "iad": "0810A74213023000000000000000000000FF",
+            "pin_statement": "No CVM used",
+            "receipt": [],
+            "preformattedReceipt": {
+                "MerchantReceipt": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Merchant Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:57:50\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000044\nRRN:\t000044290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\t0c3ac5c2-595d-4b67-81a2-397e1f0a3c\n3e\nAccent:\t*****************************\nTotal:\tR16.00}",
+                "GuestReceipt": "{\nMerchant_detail:\tRESTSIM               \n CPT          WCZA\nTransaction Type:\tEFT Purchase\nHeading:\t***Guest Receipt***\nTerminal ID:\t57290097\nDate/Time:\t2025-05-11:10:57:50\nStore Merchant ID:\tRESTSIM00000001\nBank Merchant ID:\tRESTSIM00000001\nCard Name:\tnull\nCard Number:\t476173******0010\nSTAN:\t000044\nRRN:\t000044290097\nAuth ID:\tnull\nPAN Entry Mode:\tnull\nPIN Statement:\tnull\nTSI:\tF800\nTVR:\t0000000000\nARQC:\tnull\nAPL:\t \u0000\u0000\u0000%\u0001\u0004\u0002\nAID:\tA0000000041010\nIAD:\tnull\nUTI:\t0c3ac5c2-595d-4b67-81a2-397e1f0a3c\n3e\nAccent:\t*****************************\nTotal:\tR16.00}"
+            }
+        }
+    ]
+}
