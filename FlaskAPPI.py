@@ -1,13 +1,15 @@
 # from flask import Flask
 from flask import Flask, request, jsonify
 from jsonschema import validate
+import json
+
 
 import GetResult
 import Schemacheck
 
 app = Flask(__name__)
 # Configure Flask to not sort JSON keys
-app.config['JSON_SORT_KEYS'] = False
+app.json.sort_keys = False
 
 @app.route('/hello')
 def home():
@@ -22,8 +24,8 @@ def tran_sim():
     print(data)
     # Function to check schema
     schema_result = Schemacheck.check_schema(data)
-    if(not schema_result):
-        return jsonify({"error": "Invalid request body", "details": str(e)}), 400
+    if(schema_result != True):
+        return schema_result
     print('Chema result = ')
     print(schema_result)
 
@@ -34,8 +36,15 @@ def tran_sim():
     # Function to fetch response
     hardcoded_response = GetResult.get_responses(amout)
 
+    print(hardcoded_response)
+    print(json.dumps(hardcoded_response, indent=4))
+    
+    # return hardcoded_response
+    # return json.loads(json.dumps(hardcoded_response))
+    # return json.dumps(hardcoded_response, indent=4)
     return jsonify(hardcoded_response)
     # return {"message": "Hello, Flask API!"}
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True) # Enable debug mode for development

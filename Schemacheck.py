@@ -1,4 +1,4 @@
-
+from flask import Flask, request, jsonify
 
 from jsonschema import validate
 
@@ -32,7 +32,7 @@ def check_schema(request_body):
         "type": "boolean"
         }
     },
-    "required": ["tran", "amount", "reference", "pos", "store", "chain", "receiptRequired"]
+    "required": ["tran", "amount", "reference", "pos", "store", "chain"]
     }
 
 
@@ -41,4 +41,4 @@ def check_schema(request_body):
         # Process the valid request data here
         return True
     except Exception as e:
-        return False
+        return jsonify({"error": "Invalid request body", "details": str(e)}), 400
