@@ -29,21 +29,12 @@ def tran_sim():
     print('Chema result = ')
     print(schema_result)
 
-    amout = data['amount']
-
-
-
     # Function to fetch response
-    hardcoded_response = GetResult.get_responses(amout)
+    hardcoded_response = GetResult.get_responses(data)
 
-    print(hardcoded_response)
-    print(json.dumps(hardcoded_response, indent=4))
-    
-    # return hardcoded_response
-    # return json.loads(json.dumps(hardcoded_response))
-    # return json.dumps(hardcoded_response, indent=4)
+    # print(json.dumps(hardcoded_response, indent=4))
+
     return jsonify(hardcoded_response)
-    # return {"message": "Hello, Flask API!"}
 
 if __name__ == '__main__':
     # app.run(debug=True)
