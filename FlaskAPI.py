@@ -1,22 +1,25 @@
 # from flask import Flask
 from flask import Flask, request, jsonify
-from jsonschema import validate
+# from jsonschema import validate
+from flask_sqlalchemy import SQLAlchemy
 import json
 
 
 import GetResult
 import Schemacheck
+import SqlAlchemyInt
 
 app = Flask(__name__)
 # Configure Flask to not sort JSON keys
 app.json.sort_keys = False
 
+# ============================= Hello ===============================
 @app.route('/hello')
 def home():
     return {"message": "Hello, Flask API!"}
 
 
-
+# ============================= POS Request ===============================
 @app.route('/tjpos/v1/card', methods=['POST'])
 def tran_sim():
 
@@ -34,7 +37,11 @@ def tran_sim():
 
     # print(json.dumps(hardcoded_response, indent=4))
 
+    # Commit request
+    SqlAlchemyInt.create_tran_record(data)
+
     return jsonify(hardcoded_response)
+
 
 if __name__ == '__main__':
     # app.run(debug=True)
