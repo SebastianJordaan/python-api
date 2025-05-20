@@ -11,13 +11,13 @@ def get_responses(request_body):
     for group_number, transaction in enumerate(data['items']):
         if check_amount == transaction['amount']:
             response_message = transaction
-    
+            # Set response to match request values
+            response_message["store"] = request_body["store"]
+            response_message["pos"] = request_body["pos"]
 
-    # Set response to match request values
-    response_message["store"] = request_body["store"]
-    response_message["pos"] = request_body["pos"]
+            response_message["reference"] = request_body["reference"]
 
-    response_message["reference"] = str(uuid.uuid4())
+
 
 
     return response_message

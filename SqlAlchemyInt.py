@@ -32,19 +32,16 @@ def __repr__(self) -> str:
                 f"card_acceptor='{self.card_acceptor}', terminal='{self.terminal}', message_body={self.message_body})")
 
 
-def create_tran_record(data) -> None:
+def create_tran_record_request(data) -> None:
     Base.metadata.create_all(db)
-
-    print('sqlalchemy')
-    print(data)
 
     new_record = ComRecord(
     date_time=datetime.now(),
     trans_id=data['reference'],
-    retrieval_reference_number="123456789012",
+    # retrieval_reference_number="123456789012",
     msgtype="200",
     direction=1,
-    response_code="00",
+    # response_code="00",
     amount=data['amount'],
     card_acceptor=data['store'],
     terminal=data['pos'],
@@ -56,9 +53,29 @@ def create_tran_record(data) -> None:
         session.commit()
         # print(session.query(new_record).all())
 
+def create_tran_record_response(data) -> None:
+    Base.metadata.create_all(db)
+
+    new_record = ComRecord(
+    date_time=datetime.now(),
+    trans_id=data['reference'],
+    retrieval_reference_number=data['rrn'],
+    msgtype="210",
+    direction=2,
+    response_code=data["response_code"],
+    amount=data['amount'],
+    card_acceptor=data['store'],
+    terminal=data['pos'],
+    message_body=data
+)
+
+    with Session() as session:
+        session.add(new_record)
+        session.commit()
+        # print(session.query(new_record).all())
 
 if __name__ == "__main__":
-    main()
+    create_tran_record_request()
 
 
     # new_record = ComRecord(

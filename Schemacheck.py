@@ -9,7 +9,7 @@ def check_schema(request_body):
     "properties": {
         "tran": {
         "type": "string",
-        "enum": ["PURCHASE"]
+        "enum": ["PURCHASE", "RETURN"]
         },
         "amount": {
         "type": "integer",
@@ -20,10 +20,14 @@ def check_schema(request_body):
         "format": "uuid"
         },
         "pos": {
-        "type": "string"
+        "type": "string",
+        "minLength": 8,
+        "maxLength": 8
         },
         "store": {
-        "type": "string"
+        "type": "string",
+        "minLength": 15,
+        "maxLength": 15
         },
         "chain": {
         "type": "string"

@@ -1,13 +1,13 @@
 # from flask import Flask
 from flask import Flask, request, jsonify
 # from jsonschema import validate
-from flask_sqlalchemy import SQLAlchemy
+# from flask_sqlalchemy import SQLAlchemy
 import json
 
 
 import GetResult
 import Schemacheck
-import SqlAlchemyInt
+# import SqlAlchemyInt
 
 app = Flask(__name__)
 # Configure Flask to not sort JSON keys
@@ -23,22 +23,25 @@ def home():
 @app.route('/tjpos/v1/card', methods=['POST'])
 def tran_sim():
 
+    #fetch json body request
     data = request.get_json()
-    print(data)
+    
+
+    
     # Function to check schema
     schema_result = Schemacheck.check_schema(data)
+    # If schema check does not pass, return the error of the function
     if(schema_result != True):
         return schema_result
-    print('Chema result = ')
-    print(schema_result)
 
+    # Commit request
+    # SqlAlchemyInt.create_tran_record_request(data)
+    
     # Function to fetch response
     hardcoded_response = GetResult.get_responses(data)
 
-    # print(json.dumps(hardcoded_response, indent=4))
-
-    # Commit request
-    SqlAlchemyInt.create_tran_record(data)
+    # Commit response
+    # SqlAlchemyInt.create_tran_record_request(hardcoded_response)
 
     return jsonify(hardcoded_response)
 
