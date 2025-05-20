@@ -7,7 +7,7 @@ import json
 
 import GetResult
 import Schemacheck
-# import SqlAlchemyInt
+import SqlAlchemyInt
 
 app = Flask(__name__)
 # Configure Flask to not sort JSON keys
@@ -26,8 +26,6 @@ def tran_sim():
     #fetch json body request
     data = request.get_json()
     
-
-    
     # Function to check schema
     schema_result = Schemacheck.check_schema(data)
     # If schema check does not pass, return the error of the function
@@ -35,13 +33,13 @@ def tran_sim():
         return schema_result
 
     # Commit request
-    # SqlAlchemyInt.create_tran_record_request(data)
+    SqlAlchemyInt.create_tran_record_request(data)
     
     # Function to fetch response
     hardcoded_response = GetResult.get_responses(data)
 
     # Commit response
-    # SqlAlchemyInt.create_tran_record_request(hardcoded_response)
+    SqlAlchemyInt.create_tran_record_response(hardcoded_response)
 
     return jsonify(hardcoded_response)
 
